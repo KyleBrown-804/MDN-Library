@@ -1,0 +1,18 @@
+Go to local-library directory
+cd local-library-app
+
+Run command WINDOWS CMD PROMPT
+SET DEBUG=local-library-app:* & npm start
+
+Run command WINDOWS POWERSHELL
+$ENV:DEBUG = "local-library-app:*"; npm start
+
+Or run without debugging
+npm start
+
+Site at: 127.0.0.1:3000/
+or http://localhost:3000/
+
+[ --- RUN WITH NEW SCRIPTS --- ]
+npm run devstart (with nodemon)
+npm run serverstart (with nodemon and debugging)
